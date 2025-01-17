@@ -8,7 +8,7 @@ import Login from "./menu/Login";
 import Register from "./menu/Register";
 import Footer from "./components/Footer";
 import { AuthProvider } from "./AuthContext.js";
-
+import Calendar from './components/Calendar';
 const App = () => {
   return (
     <AuthProvider>
@@ -22,6 +22,7 @@ const App = () => {
                 <Route path="/" element={<Home />} /> 
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
+                <Route path="/calendar" element={<Calendar />} />
               </Routes>
             </div>
           </div>

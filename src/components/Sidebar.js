@@ -10,7 +10,7 @@ const Sidebar = () => {
         <FaHome className="icon" />
         <span>Trang chủ</span>
       </Link>
-      <Link to="/tasks" className="sidebar-item">
+      <Link to="/calendar" className="sidebar-item">
         <FaCalendar className="icon" />
         <span>Lịch thực tập </span>
       </Link>
