@@ -1,0 +1,59 @@
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .course-card {
+    background: #f0f8ff;
+    border: 1px solid #d1e7ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 16px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .course-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 12px;
+  }
+  
+  .course-info h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .course-info p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .progress-container {
+    background: #e3f2fd;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 8px;
+    margin: 10px 0;
+  }
+  
+  .progress-bar {
+    background: #2196f3;
+    height: 100%;
+    transition: width 0.3s ease;
+  }
+  
+  .progress-text {
+    font-size: 14px;
+    color: #333;
+  }
+  

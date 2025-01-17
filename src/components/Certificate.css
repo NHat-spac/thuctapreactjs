@@ -1,0 +1,129 @@
+/* Reset mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #eef2f7;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Lớp phủ mờ */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  z-index: 1000;
+}
+
+.overlay.show {
+  display: block;
+}
+
+/* Form nhập thông tin */
+form {
+  margin: 20px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #dcdcdc;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+form h3 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #1a202c;
+}
+
+form label {
+  font-size: 14px;
+  color: #555;
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Phần chứng chỉ */
+.certificate {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  width: 700px;
+  margin: 30px auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.certificate h1 {
+  font-size: 36px;
+  color: #1a202c;
+}
+
+.certificate h2 {
+  font-size: 28px;
+  color: #007bff;
+}
+
+.certificate h3 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.signature {
+  margin-top: 20px;
+}
+
+.signature h4 {
+  font-size: 20px;
+  color: #007bff;
+}
+
+button {
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}

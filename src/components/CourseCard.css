@@ -1,0 +1,23 @@
+
+.course-card {
+    background: linear-gradient(45deg, #d4b795, #4c4b4b);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    flex: 1;
+  }
+  
+  .course-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .course-card p {
+    font-size: 14px;
+  }
+  
+  .course-info span {
+    margin-right: 15px;
+  }
+  
